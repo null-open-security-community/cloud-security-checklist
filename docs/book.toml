@@ -1,0 +1,6 @@
+[book]
+authors = ["null - Open Security Community"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Cloud Security Checklist"
