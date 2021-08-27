@@ -1,0 +1,8 @@
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $CHECKLIST_TOKEN
+  local-dir: docs 
+  keep-history: false
+  on:
+    branch: main
