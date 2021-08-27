@@ -1,6 +1,5 @@
 language: rust
-os: linux
-dist: xenial
+sudo: false
 
 cache:
   - cargo
@@ -14,16 +13,13 @@ before_script:
   - cargo install-update -a
 
 script:
-  - mdbook build && mdbook test # In case of custom book path: mdbook build path/to/mybook && mdbook test path/to/mybook
-  
+  - mdbook build && mdbook test 
+
 deploy:
   provider: pages
-  strategy: git
-  edge: true
-  cleanup: false
+  skip-cleanup: true
   github-token: $CHECKLIST_TOKEN
-  local-dir: docs 
+  local-dir: docs
   keep-history: false
   on:
     branch: main
-  target_branch: gh-pages
