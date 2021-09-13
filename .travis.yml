@@ -13,13 +13,4 @@ before_script:
   - cargo install-update -a
 
 script:
-  - mdbook build && mdbook test 
-
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $CHECKLIST_TOKEN
-  local-dir: docs
-  keep-history: false
-  on:
-    branch: main
+  - mdbook build && mdbook test # In case of custom book path: mdbook build path/to/mybook && mdbook test path/to/mybook
