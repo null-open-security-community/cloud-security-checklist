@@ -68,5 +68,5 @@ docs/book
 
 # End of https://www.toptal.com/developers/gitignore/api/mdbook,visualstudiocode,linux,macos
 
-src/azure-security
-src/google-cloud-security
+src/azure-security/
+src/google-cloud-security/
