@@ -9,7 +9,5 @@
     - [AWS IAM](aws-security/iam.md)
     - [AWS Lambda](aws-security/lambda.md)
     - [AWS EKS](aws-security/eks.md)
-<!-- - [Azure Security Checklist](azure-security/README.md)
-- [Google Cloud Security Checklist](google-cloud-security/README.md) -->
 - [Contributors](CONTRIBUTORS.md)
 - [How to Contribute?](CONTRIBUTING.md)
