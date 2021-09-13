@@ -44,7 +44,6 @@
 
 * Add more detailed description for the checklist (The why?)
 * Add the automation to perform these checks using Infrastructure as Code (IaC) (The How?)
-* Convert this checklists into PDF generated
 
 ## References
 

@@ -1,6 +1,14 @@
 # Study Group - Cloud Security
 
-So here are the things at a very high level of the structure or things we wanted to do in the null Cloud Security study group.
+null Cloud Security Study Group ran through the duration of **Feb, 2021 - Aug, 2021**.
+
+## Mentors
+- [Jayesh Chauhan](https://www.linkedin.com/in/jayeshsch/)
+- [Madhu Akula](https://www.linkedin.com/in/madhuakula/)
+
+## Structure
+
+Here are the things at a very high level of the structure or things we wanted to do in the null Cloud Security study group.
 
 - Pre-requirements for the study group with learning the basic fundamentals
     - Basic Sysadmin, Networking, Programming, etc.
@@ -42,3 +50,20 @@ So here are the things at a very high level of the structure or things we wanted
 - Giving more references and resources
 
 > Note: This is what planned in the initial stage. Due to the constraints, we haven't completed everything as part of this study group.
+
+We also did ample amount of hands-on using the open source learning material - 
+- [flaws.cloud](http://flaws.cloud/)
+- [flaws2.cloud](http://flaws2.cloud/)
+- [Cloud Goat](https://github.com/RhinoSecurityLabs/cloudgoat)
+
+Along with trying out different tools -
+- CloudTracker
+- PMapper
+- PolicySentry
+- AirIAM
+- enumerate-iam
+- serverless-puresec-cli
+- Parliament    
+- iamlive
+
+> We started with AWS Cloud in this iteration of the Cloud Security Study Group, and plan to move forward with different cloud service providers in next iterations.

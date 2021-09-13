@@ -11,3 +11,5 @@
     - [AWS EKS](aws-security/eks.md)
 - [Azure Security Checklist](azure-security/README.md)
 - [Google Cloud Security Checklist](google-cloud-security/README.md)
+- [Contributors](CONTRIBUTORS.md)
+- [How to Contribute?](CONTRIBUTING.md)
