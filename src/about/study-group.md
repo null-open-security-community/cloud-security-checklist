@@ -1,5 +1,4 @@
 # Study Group - Cloud Security
-
 null Cloud Security Study Group ran through the duration of **Feb, 2021 - Aug, 2021**.
 
 ## Mentors
@@ -7,7 +6,6 @@ null Cloud Security Study Group ran through the duration of **Feb, 2021 - Aug, 2
 - [Madhu Akula](https://www.linkedin.com/in/madhuakula/)
 
 ## Structure
-
 Here are the things at a very high level of the structure or things we wanted to do in the null Cloud Security study group.
 
 - Pre-requirements for the study group with learning the basic fundamentals
