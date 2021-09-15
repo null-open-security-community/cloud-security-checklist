@@ -349,6 +349,50 @@ Generate Policy based on CloudTrail Activity</li>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="rds"><a class="header" href="#rds">RDS</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="iam"><a class="header" href="#iam">IAM</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="lambda"><a class="header" href="#lambda">Lambda</a></h1>
+<ol>
+<li>Preventive
+<ul>
+<li>Code Signing</li>
+<li>Block public access to S3 bucket</li>
+<li>S3 Bucket encryption at rest</li>
+<li>Allows only signed container from AWS ECR (for containerized lambda)</li>
+<li>Configure Security Groups to allow only required traffic from the VPC</li>
+<li>Avoid associating all subnets with VPC endpoint associate only subnets that need access to required endpoint resources </li>
+</ul>
+</li>
+<li>Detctive
+<ul>
+<li>Enable Cloudtrail</li>
+<li>Enable AWS Config</li>
+</ul>
+</li>
+<li>Logging and monitoring
+<ul>
+<li>Enable Cloudtrail</li>
+<li>Enable AWS Xray</li>
+</ul>
+</li>
+<li>Identity and Access Management
+<ul>
+<li>Triggers
+<ul>
+<li>API : Authentication - IAM (REST API) JWT (HTTP)</li>
+<li>Share only required API endpoint Lamda functions through the API gateway 
+: API Key not prefered</li>
+<li>Services : IAM</li>
+</ul>
+</li>
+<li>IAM 
+<ul>
+<li>Grant least privilege policy</li>
+<li>Generate Policy based on
+CloudTrail Activity</li>
+<li>Avoid sharing the same IAM role between Lamda functions (setup a dedicated IAM role per Lamda function)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="eks"><a class="header" href="#eks">EKS</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="contributors"><a class="header" href="#contributors">Contributors</a></h1>
 <ul>
