@@ -9,6 +9,6 @@
     - [AWS IAM](aws-security/iam.md)
     - [AWS Lambda](aws-security/lambda.md)
     - [AWS EKS](aws-security/eks.md)
-    - [Resources](aws-security/resources.md)
+- [Resources](resources.md)
 - [Contributors](CONTRIBUTORS.md)
 - [How to Contribute?](CONTRIBUTING.md)
