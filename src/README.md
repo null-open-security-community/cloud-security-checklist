@@ -13,7 +13,7 @@ We have categorised the best practices into 4 different categories -
 
 There are several people who are actively contributing to this project, who are also a part of the cloud security study group.
 
-Big Shout Out to,
+## Contributors
 - Avinash Upadhyaya
 - Ashwin Pathak
 - Siddharth Balyan
@@ -21,3 +21,7 @@ Big Shout Out to,
 - Gowtham
 - Vishal Soni
 - Mr.Pool.404
+
+## Mentors
+- Madhu Akula
+- Jayesh Chauhan
