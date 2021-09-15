@@ -1,7 +1,5 @@
 # Lambda
 
-<<<<<<< HEAD
-=======
 1. Preventive
     * Code Signing
     * Block public access to S3 bucket
@@ -26,4 +24,4 @@
         - Generate Policy based on
 CloudTrail Activity
         - Avoid sharing the same IAM role between Lamda functions (setup a dedicated IAM role per Lamda function)
->>>>>>> c986922fb29c16cc0157648fc14dc92ed2493ecd
+
