@@ -18,6 +18,7 @@
 - [ ] Creating a security group for EC2
 - [ ] Require the Use of IMDSv2 When Launching EC2 Instances
 - [ ] Require MFA to Stop an Amazon EC2 Instance
+- [ ] Use only IMDSv2 (by default v1 and v2 is enabled)
 
 ## Detective Controls
 
